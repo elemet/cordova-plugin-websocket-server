@@ -1,3 +1,6 @@
+# Reasons for Wattcost use:
+- [Android] Allow reuse of port during socket shutdown timeout as outlined here: https://github.com/TooTallNate/Java-WebSocket/wiki/Enable-SO_REUSEADDR
+
 # Cordova WebSocket Server Plugin
 
 This plugin allows you to run a single, lightweight, barebone WebSocket Server from applications developed using PhoneGap/Cordova 3.0 or newer.
@@ -101,7 +104,7 @@ wsserver.getInterfaces(function(result) {
 It depends on [the TooTallNate WebSocket Server](https://github.com/TooTallNate/Java-WebSocket).
 
 #### iOS
-It depends on [the couchbasedeps PocketSocket Server](https://github.com/couchbasedeps/PocketSocket) forked from [the zwopple PocketSocket Server](https://github.com/zwopple/PocketSocket). 
+It depends on [the couchbasedeps PocketSocket Server](https://github.com/couchbasedeps/PocketSocket) forked from [the zwopple PocketSocket Server](https://github.com/zwopple/PocketSocket).
 
 ## Licence ##
 
