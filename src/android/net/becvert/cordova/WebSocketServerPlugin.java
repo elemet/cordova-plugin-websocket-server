@@ -155,6 +155,8 @@ public class WebSocketServerPlugin extends CordovaPlugin {
                         newServer.setTcpNoDelay(tcpNoDelay);
                     }
 
+                    newServer.setReuseAddr(true);
+
                     try {
                         newServer.start();
                     } catch (IllegalStateException e) {
