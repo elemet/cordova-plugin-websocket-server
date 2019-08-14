@@ -1,3 +1,7 @@
+## [1.5.1] - 2019-08-09
+
+- [Android] Set option to re-use previously bound port during socket shutdown timeout
+
 ## [1.5.0] - 2019-04-02
 
 - [Android] upgrading to [org:java-websocket:1.4.0](https://github.com/TooTallNate/Java-WebSocket)
